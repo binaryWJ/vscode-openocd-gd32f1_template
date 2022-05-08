@@ -1,0 +1,651 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# Make data base, printed on Sun May 08 14:32:32 2022
+
+# ����
+
+# �Զ�
+<D = $(patsubst %/,%,$(dir $<))
+# �Զ�
+?F = $(notdir $?)
+# makefile (from `makefile', line 148)
+LDSCRIPT = GD32F103C8Tx_FLASH.ld
+# makefile
+MAKEFLAGS = Rrqp
+# ����
+VSCODE_LOG_NATIVE = false
+# makefile (from `makefile', line 16)
+TARGET = hello
+# �Զ�
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from `makefile', line 110)
+AS_DEFS = 
+# makefile (from `makefile', line 119)
+AS_INCLUDES = 
+# �Զ�
+@D = $(patsubst %/,%,$(dir $@))
+# ����
+HOMEDRIVE 
+ = C:
+# �Զ�
+@F = $(notdir $@)
+# �Զ�
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Users/WangJun/snail/OpenSource/vscode-openocd-gd32f1_template
+# Ĭ��
+SHELL := sh.exe
+# makefile (from `makefile', line 91)
+BIN = $(CP) -O binary -S
+# ����
+WINDIR = C:\Windows
+# ����
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from `makefile', line 88)
+SZ = $(PREFIX)size
+# makefile (from `makefile', line 141)
+CFLAGS = $(MCU) $(C_DEFS) $(C_INCLUDES) $(OPT) -W 
+all -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"$(@:%.o=%.d)"
+# ����
+ONEDRIVE = C:\Users\WangJun\OneDrive
+# ����
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# ����
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# makefile (from `makefile', line 87)
+CP = $(PREFIX)objcopy
+# makefile (from `makefile', line 23)
+DEBUG = 1
+# ����
+TMP = C:\Users\WangJun\AppData\Local\Temp
+# ����
+VSCODE_VERBOSE_LOGGING = true
+# makefile 
+ (from `makefile', line 86)
+AS = $(PREFIX)gcc -x assembler-with-cpp
+# ����
+PROGRAMW6432 = C:\Program Files
+# ����
+PROGRAMDATA = C:\ProgramData
+# ����
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-2c5a5d7c-ff5f-4742-85a9-19408d43036b-sock
+# ����
+VSCODE_CWD = C:\Program Files\Microsoft VS Code
+# ����
+PATH = C:\Anaconda3;C:\Anaconda3\Library\mingw-w64\bin;C:\Anaconda3\Library\usr\bin;C:\Anaconda3\Library\bin;C:\Anaconda3\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Microsoft Azure Sphere SDK\Tools_v2\wbin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\CMake\bin;C:\Program Files\Git\cmd;C:\Users\WangJun\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\WangJun\AppData\Local\Programs\Python\Python38;C:\Program Files\node-v18.0.0-win-x64;C:\Program Files\curl-7.82.0-win64-mingw\bin;C:\Program Files\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin;C:\Program Files\OpenOCD-20211118-0.11.0\bin;C:\Program Files\mingw64-8.1.0\bin;C:\Program Files\make-3.81-bin\bin;C:\Users\WangJun\AppData\Local\Microsoft\WindowsApps;
+# ����
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# ����
+PROCESSOR_ARCHITECTURE = x86
+# ����
+USERPROFILE = C:\Users\WangJun
+# ����
+ALLUSERSPROFILE = C:\ProgramData
+# ����
+VSCODE_LOG_STACK = false
+# ����
+NUMBER_OF_PROCESSORS = 4
+# ����
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from `makefile', line 153)
+LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
+# Ĭ��
+.FEATURES := target-specific order-only second-expansion else-if archives
+# �Զ�
+%F = $(notdir $%)
+# ����
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_2624_BTMYEKGJLKNZWSHI
+# makefile (from `makefile', line 69)
+ASM_SOURCES = App/startup_gd32f10x_xd.s
+# makefile (from `makefile', line 25)
+OPT = -Og
+# ����
+VSCODE_PIPE_LOGGING = true
+# ����
+COMPUTERNAME = DESKTOP-L8KE3NL
+# ����
+PROGRAMFILES = C:\Program Files (x86)
+# ����
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# ����
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# ����
+USERNAME = WangJun
+# ����
+PUBLIC = C:\Users\Public
+# ����
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# ����
+VSCODE_CODE_CACHE_PATH = C:\Users\WangJun\AppData\Roaming\Code\CachedData\57fd6d0195bb9b9d1b49f6da5db789060795de47
+# ����
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC 
+_CHANNEL = 1
+# ����
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# ����
+LOGONSERVER = \\DESKTOP-L8KE3NL
+# makefile (from `makefile', line 76)
+PREFIX = arm-none-eabi-
+# ����
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# ����
+USERDOMAIN = DESKTOP-L8KE3NL
+# makefile (from `makefile', line 113)
+C_DEFS = -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD
+# makefile (from `makefile', line 106)
+MCU = $(CPU) -mthumb $(FPU) $(FLOAT-ABI)
+# makefile (from `makefile', line 122)
+C_INCLUDES = -IApp -IDrivers/CMSIS -IDrivers/CMSI 
+S/GD/GD32F10x/Include -IDrivers/GD32F10x_standard_peripheral/Include -IUtilities
+# Ĭ��
+MAKE = $(MAKE_COMMAND)
+# Ĭ��
+MAKECMDGOALS := all
+# makefile (from `makefile', line 90)
+HEX = $(CP) -O ihex
+# makefile (from `makefile', line 85)
+CC = $(PREFIX)gcc
+# makefile (from `makefile', line 32)
+BUILD_DIR = build
+# makefile (from `makefile', line 131)
+ASFLAGS = $(MCU) $(AS_DEFS) $(AS_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
+# Ĭ��
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := all
+# ����
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# �Զ�
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from `makefile', line 97)
+CPU = -mcpu=cortex-m3
+# ����
+LOCALAPPDATA = C:\Users\WangJun\AppData\Local
+# ����
+PSMODULEPATH = C:\Program Files (x86)\Microsoft Azure Sphere SDK\Tools_v2\Pwsh;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# Ĭ��
+MAKE_COMMAND := make.exe
+# ����
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile (from `makefile', line 152)
+LIBDIR = 
+# Ĭ��
+.VARIABLES := 
+# �Զ�
+*F = $(notdir $*)
+# ����
+PROCESSOR_IDENTIFIER = AMD64 Family 21 Model 48 Stepping 1, AuthenticAMD
+# ����
+OS = Windows_NT
+# ����
+VSCODE_IPC_HOOK = \\.\pipe\2b078103f07f16300cbb2a841afb7b33-1.67.0-main-sock
+# ����
+HOMEPATH = \Users\WangJun
+# ����
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# ����
+PROMPT = $P$G
+# ����
+MFLAGS = -Rrqp
+# �Զ�
+*D = $(patsubst %/,%,$(dir $*))
+# ����
+SYSTEMROOT = C:\Windows
+# �Զ�
++D = $(patsubst %/,%,$(dir $+))
+# �Զ�
++F = $(notdir $+)
+# ����
+APPDATA = C:\Users\WangJun\AppData\Roaming
+# ����
+AZURESPHEREDEFAULTSDKDIR = C:\Program Files (x86)\Microsoft Azure Sphere SDK\
+# ����
+TEMP = C:\Users\WangJun\AppData\Local\Temp
+# ����
+COMSPEC = C:\Windows\system32\cmd.exe
+# Ĭ��
+MAKEFILES := 
+# �Զ�
+<F = $(notdir $<)
+# ����
+LC_ALL = C
+# makefile (from `makefile', line 151)
+LIBS = -lc -lm -lnosys 
+# �Զ�
+^F = $(notdir $^)
+# makefile (from `makefile', line 38)
+C_SOURCES = App/main.c App/gd32f10x_it.c App/systick.c Utilities/gd32f10x_eval.c Drivers/CMSIS/GD/GD32F10x/Source/system_gd32f10x.c Drivers/GD32F10x_standard_peripheral/Source/gd32f10x_adc.c Drivers/GD32F10x_standard_peripheral/Source/gd32f10x_bkp.c Drivers/GD32F10x_standard_peripheral/Source/gd32f10x_can.c Drivers/GD32F10x_standard_peripheral/Source/gd32f10x_crc.c Drivers/GD32F10x_standard_peripheral/Source/gd32f10x_dac.c Drivers/GD32F10x_standard_peripheral/Source/gd32f10x_dbg.c Drivers/GD32F10x_standard_peripheral/Source/gd32f10x_dma.c Drivers/GD32F10x_standard_peripheral/Source/gd32f10x_enet.c Drivers/GD32F10x_standard_peripheral/Source/gd32f10x_exmc.c Drivers/GD32F10x_standard_peripheral/Source/gd32f10x_exti.c Drivers/GD32F10x_standard_peripheral/Source/gd32f10x_fmc.c Drivers/GD32F10x_standard_peripheral/Source/gd32f10x_fwdgt.c Drivers/GD32F10x_standard_peripheral/Source/gd32f10x_gpio.c Drivers/GD32F10x_standard_peripheral/Source/gd32f10x_i2c.c Drivers/GD32F10x_standard_peripheral/Source/gd32f10x_misc.c Drivers/GD32F10x_standard_peripheral/Source/gd32f10x_pmu.c Drivers/GD32F10x_standard_peripheral/Source/gd32f10x_rcu.c Drivers/GD32F10x_standard_peripheral/Source/gd32f10x_rtc.c Drivers/GD32F10x_standard_peripheral/Source/gd32f10x_sdio.c Drivers/GD32F10x_standard_peripheral/Source/gd32f10x_spi.c Drivers/GD32F10x_standard_peripheral/Source/gd32f10x_timer.c Drivers/GD32F10x_standard_peripheral/Source/gd32f10x_usart.c Drivers/GD32F10x_standard_peripheral/Source/gd32f10x_wwdgt.c
+# Ĭ��
+SUFFIXES := 
+# ����
+SYSTEMDRIVE = C:
+# ����
+SESSIONNAME = Console
+# ����
+PROCESSOR_REVISION = 3001
+# ����
+MOZ_PLUGIN_PATH = C:\Program Files  
+(x86)\Foxit Software\Foxit Reader\plugins\
+# ����
+MAKELEVEL := 0
+# makefile (from `makefile', line 166)
+OBJECTS = $(addprefix $(BUILD_DIR)/,$(notdir $(C_SOURCES:.c=.o))) $(addprefix $(BUILD_DIR)/,$(notdir $(ASM_SOURCES:.s=.o)))
+# ����
+LANG = C
+# ����
+PROCESSOR_LEVEL = 21
+# ����
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# ����
+VSCODE_PID = 2624
+# ����
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-L8KE3NL
+# variable set hash-table stats:
+# Load=116/1024=11%, Rehash=0, Collisions=12/173=7%
+
+# Pattern-specific Variable Values
+
+# û�� pattern-specific ������ֵ��
+
+# Ŀ¼
+
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (�ؼ��� C:/Windows/System32/WindowsPowerShell/v1.0/���޸�ʱ�� 1633527265)��31 �ļ��� �� impossibilities.
+# C:\Windows\System32\Wbem (�ؼ��� C:/Windows/System32/Wbem���޸�ʱ�� 1649906865)��171 �ļ��� �� impossibilities.
+# . (�ؼ��� c:/Users/WangJun/snail/OpenSource/vscode-openocd-gd32f1_template���޸�ʱ�� 1651991550)��16 �ļ��� �� impossibilities.
+# Drivers/GD32F10x_standard_peripheral/Source (�ؼ��� c:/ 
+Users/WangJun/snail/OpenSource/vscode-openocd-gd32f1_template/Drivers/GD32F10x_standard_peripheral/Source���޸�ʱ�� 1651991457)���� �ļ��� �� impossibilities ����Ϊֹ��
+# C:\Program Files\mingw64-8.1.0\bin (�ؼ��� C:/Program Files/mingw64-8.1.0/bin���޸�ʱ�� 1526054436)��58 �ļ��� �� impossibilities.
+# C:\Program Files\node-v18.0.0-win-x64 (�ؼ��� C:/Program Files/node-v18.0.0-win-x64���޸�ʱ�� 1650324945)��16 �ļ��� �� impossibilities.
+# App (�ؼ��� c:/Users/WangJun/snail/OpenSource/vscode-openocd-gd32f1_template/App���޸�ʱ�� 1651991459)��6 �ļ��� �� impossibilities ����Ϊֹ��
+# C:\Program Files\dotnet\ (�ؼ��� C:/Program Files/dotnet/���޸�ʱ�� 1649294572)��8 �ļ��� �� impossibilities.
+# C:\Program Files (x86)\Microsoft Azure Sphere SDK\Tools_v2\wbin (�ؼ��� C:/Program Files (x86)/Microsoft Azure Sphere SDK/Tools_v2/wbin���޸�ʱ�� 1649272680)��5 �ļ��� �� impossibilities.
+# build���޷�������� stat ������
+# C:\Users\WangJun\AppData\Local\Programs\Python\Python38 (�ؼ��� C:/Users/WangJun/AppData/Local/Progr 
+ams/Python/Python38���޸�ʱ�� 1649983968)��19 �ļ��� �� impossibilities.
+# C:\Program Files\OpenOCD-20211118-0.11.0\bin (�ؼ��� C:/Program Files/OpenOCD-20211118-0.11.0/bin���޸�ʱ�� 1637274187)��7 �ļ��� �� impossibilities.
+# C:\Windows\System32\OpenSSH\���޷�������� stat ������
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (�ؼ��� C:/Program Files (x86)/Common Files/Oracle/Java/javapath���޸�ʱ�� 1651805045)��5 �ļ��� �� impossibilities.
+# C:\Anaconda3 (�ؼ��� C:/Anaconda3���޸�ʱ�� 1649989638)��88 �ļ��� �� impossibilities.
+# C:\Program Files\Microsoft VS Code\bin (�ؼ��� C:/Program Files/Microsoft VS Code/bin���޸�ʱ�� 1651843180)��4 �ļ��� �� impossibilities.
+# C:\Windows (�ؼ��� C:/Windows���޸�ʱ�� 1651971678)��115 �ļ��� �� impossibilities.
+# C:\Users\WangJun\AppData\Local\Microsoft\WindowsApps (�ؼ��� C:/Users/WangJun/AppData/Local/Microsoft/WindowsApps���޸�ʱ�� 1651020940)��13 �ļ��� �� impossibilities.
+# C:\Program Files\curl-7.82.0-win64-mingw\bin (�ؼ��� C:/Program Files/curl-7.82.0-win64-mingw/bin���޸�ʱ�� 1651032850)��5 �ļ��� �� impossibilities.
+# Utilities (�ؼ��� c:/Users/WangJun/snail/OpenSource/vscode-openocd-gd32f1_template/Utilities���޸�ʱ�� 1651991458)���� �ļ��� �� impossibilities ����Ϊֹ��
+# C:\Program Files\make-3.81-bin\bin (�ؼ��� C:/Program Files/make-3.81-bin/bin���޸�ʱ�� 1651801677)��5 �ļ��� �� impossibilities.
+# Drivers/CMSIS/GD/GD32F10x/Source (�ؼ��� c:/Users/WangJun/snail/OpenSource/vscode-openocd-gd32f1_template/Drivers/CMSIS/GD/GD32F10x/Source���޸�ʱ�� 1 
+651991457)���� �ļ��� �� impossibilities ����Ϊֹ��
+# C:\Users\WangJun\AppData\Local\Programs\Python\Python38\Scripts (�ؼ��� C:/Users/WangJun/AppData/Local/Programs/Python/Python38/Scripts���޸�ʱ�� 1649985821)��30 �ļ��� �� impossibilities.
+# C:\Anaconda3\Library\usr\bin���޷�������� stat ������
+# C:\Anaconda3\Library\bin (�ؼ��� C:/Anaconda3/Library/bin���޸�ʱ�� 1649989638)��451 �ļ��� �� impossibilities.
+# C:\Anaconda3\Scripts (�ؼ��� C:/Anaconda3/Scripts���޸�ʱ�� 1649989638)��343 �ļ��� �� impossibi 
+lities.
+# C:\Program Files\Git\cmd (�ؼ��� C:/Program Files/Git/cmd���޸�ʱ�� 1649274982)��8 �ļ��� �� impossibilities.
+# C:\Windows\system32 (�ؼ��� C:/Windows/system32���޸�ʱ�� 1651982287)��2846 �ļ��� �� impossibilities.
+# C:\Anaconda3\Library\mingw-w64\bin (�ؼ��� C:/Anaconda3/Library/mingw-w64/bin���޸�ʱ�� 1649988641)��15 �ļ��� �� impossibilities.
+# C:\Program Files\CMake\bin (�ؼ��� C:/Program Files/CMake/bin���޸�ʱ�� 1649273709)��7 �ļ��� �� impossibilities.
+# C:\Program Files (x86)\ATI Technolog 
+ies\ATI.ACE\Core-Static (�ؼ��� C:/Program Files (x86)/ATI Technologies/ATI.ACE/Core-Static���޸�ʱ�� 1649296516)��332 �ļ��� �� impossibilities.
+# C:\Program Files\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin (�ؼ��� C:/Program Files/gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi/bin���޸�ʱ�� 1651922605)��34 �ļ��� �� impossibilities.
+
+# 4638 �ļ��� �� impossibilities in 32 directories.
+
+# Implicit Rules
+
+build/%.o: %.c Makefile | build
+#  Ҫִ�е����� (�ӡ�makefile������ 170)��
+	$(CC) -c $(CF 
+LAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+build/%.o: %.s Makefile | build
+#  Ҫִ�е����� (�ӡ�makefile������ 173)��
+	$(AS) -c $(CFLAGS) $< -o $@
+	
+
+build/%.hex: build/%.elf | build
+#  Ҫִ�е����� (�ӡ�makefile������ 180)��
+	$(HEX) $< $@
+	
+
+build/%.bin: build/%.elf | build
+#  Ҫִ�е����� (�ӡ�makefile������ 183)��
+	$(BIN) $< $@	
+	
+
+# 4 ����������0 (0.0%) �նˡ�
+
+# �ļ�
+
+# ����һ��Ŀ�꣺
+build/gd32f10x_spi.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ���� 
+�¡�
+
+build/main.o: App/main.c makefile | build
+#  �������������������ɡ�
+#  ����/��̬ģʽ���ɣ���main��
+#  �ļ������ڡ�
+#  �ļ��Ѿ������¡�
+#  ��Ҫ���� (�� -q �趨)��
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/2=0%
+#  Ҫִ�е����� (�ӡ�makefile������ 170)��
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+all: build/hello.elf build/hello.hex build/hello.bin
+#  ������Ŀ�ꡣ
+#  �������������������ɡ�
+#  �ļ������ڡ�
+#  �ļ��Ѿ������¡�
+#  � 
+�Ҫ���� (�� -q �趨)��
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/2=0%
+
+# ����һ��Ŀ�꣺
+build/startup_gd32f10x_xd.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+build/gd32f10x_can.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+build/gd32f10x_gpio.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+build/gd32f10x_enet.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+.DEFAULT:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+build/gd32f10x_crc.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+build/gd32f10x_rtc.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+build/gd32f10x_exmc.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+build/gd32f1 
+0x_exti.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+update:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+#  Ҫִ�е����� (�ӡ�makefile������ 200)��
+	openocd -f openocd.cfg -c init -c halt \
+	-c "program $(BUILD_DIR)/$(TARGET).hex verify reset exit"
+	
+
+# ����һ��Ŀ�꣺
+build/gd32f10x_dbg.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+build/gd32f10x_it.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣 
+
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+makefile:
+#  �������������������ɡ�
+#  ������� 2022-05-08 14:19:30
+#  �ļ��Ѿ������¡�
+#  ���³ɹ���
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build:
+#  �����������������δ��ɡ�
+#  ����/��̬ģʽ���ɣ�����
+#  �ļ������ڡ�
+#  �ļ��Ѿ������¡�
+#  ��Ҫ���� (�� -q �趨)��
+# �Զ�
+# @ := build
+# �Զ�
+# % := 
+# �Զ�
+# * := 
+# �Զ�
+# + := 
+# �Զ�
+# | := 
+# �Զ�
+# < := 
+# �Զ�
+# ^ := 
+# �Զ�
+# ? := 
+# variable set hash-table stats:
+# Load 
+=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  Ҫִ�е����� (�ӡ�makefile������ 186)��
+	mkdir $@		
+	
+
+# ����һ��Ŀ�꣺
+build/hello.hex:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+App/main.c:
+#  �������������������ɡ�
+#  ������� 2021-12-16 10:55:09
+#  �ļ��Ѿ������¡�
+#  ���³ɹ���
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# ����һ��Ŀ�꣺
+build/gd32f10x_misc.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ��� 
+��¡�
+
+# ����һ��Ŀ�꣺
+build/system_gd32f10x.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+build/gd32f10x_usart.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+build/gd32f10x_timer.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+build/gd32f10x_i2c.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+build/hello.elf: build/main.o build/gd32f10x_it.o build/systick.o build/gd32f10x_eval.o build/system_gd32f10x.o build/gd32f10x_adc.o build/gd32f10x_bkp.o build/gd32f10x_can.o build/gd32f10x_crc.o build/gd32f10x_dac.o build/gd32f10x_dbg.o build/gd32f10x_dma.o build/gd32f10x_enet.o build/gd32f10x_exmc.o build/gd32f10x_exti.o build/gd32f10x_fmc.o build/gd32f10x_fwdgt.o build/gd32f10x_gpio.o build/gd32f10x_i2c.o build/gd32f10x_misc.o build/gd32f10x_pmu.o build/gd32f10x_rcu.o build/gd32f10x_rtc.o build/gd32f10x_sdio.o build/gd32f10x_spi.o build/gd32f10x_timer.o build/gd32f10x_usart.o build/gd32f10x_wwdgt.o build/startup_gd32f10x_xd.o makefile
+#  �����������������δ��ɡ�
+#  �ļ������ڡ�
+#  �ļ��Ѿ������¡�
+#  ��Ҫ���� (�� -q �趨)��
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/2=0%
+#  Ҫִ�е����� (�ӡ�makefile������ 176)��
+	$(CC) $(OBJECTS) $(LDFLAGS) -o $@
+	$(SZ) $@
+	
+
+# ����һ��Ŀ�꣺
+.SUFFIXES:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+build/gd32f10x_rcu.o:
+#  �����������������δ��� 
+��
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+build/gd32f10x_dac.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+reset:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+#  Ҫִ�е����� (�ӡ�makefile������ 204)��
+	openocd -f openocd.cfg -c init -c halt -c reset -c shutdown
+	
+
+# ����һ��Ŀ�꣺
+build/gd32f10x_bkp.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+build/gd32f10x_adc.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+clean:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+#  Ҫִ�е����� (�ӡ�makefile������ 192)��
+	-rm -fR $(BUILD_DIR)
+	
+
+# ����һ��Ŀ�꣺
+build/gd32f10x_pmu.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+build/hello.bin:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+build/gd32f10x_eval.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+build/gd32f10x_sdio.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+build/systick.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+build/gd32f10x_fwdgt.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+build/gd32f10x_dma.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+build/gd32f10x_wwdgt.o:
+#  
+ �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+build/gd32f10x_fmc.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# files hash-table stats:
+# Load=41/1024=4%, Rehash=0, Collisions=2/100=2%
+# VPATH ����·��
+
+vpath %.c App;Drivers/CMSIS/GD/GD32F10x/Source;Drivers/GD32F10x_standard_peripheral/Source;Utilities
+vpath %.s App
+
+# 2 ��vpath������·����
+
+# û��ͨ������·��(��VPATH������)��
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sun May 08 14:32:32 2022
+
+ 
